@@ -1,5 +1,5 @@
 #!/bin/sh
-java -jar /widoco.jar $@
+java -jar /widoco.jar -outFolder ./output $@
 cd output
 cp /drone-no-op-template.yml .drone.yml
 ln index-en.html index.html
