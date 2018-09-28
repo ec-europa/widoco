@@ -1,0 +1,4 @@
+pipeline:
+  no-op:
+    image: no-op/no-op
+branches: master
